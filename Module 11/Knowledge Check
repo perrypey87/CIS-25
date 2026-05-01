@@ -1,0 +1,14 @@
+1. What is a pointer, and how did you use it in your program? (3 pts)
+A pointer is a variable that stores the memory address of another variable rather than storing a value directly.
+In the program, Patient* p is a pointer to a Patient struct. Instead of holding patient data itself, p holds the address of patient1.
+This allows indirect access to patient1's data through p.
+
+2. What does the & operator do in your program? (3 pts)
+The & (address-of) operator returns the memory address of a variable.
+In the line Patient* p = &patient1;, the & operator retrieves the memory address where patient1 is stored and assigns that address to the pointer p.
+Without &, p would have no valid address to point to.
+
+3. Write the output of your program. (4 pts)
+ID: 101
+Name: Perry
+Age: 38
