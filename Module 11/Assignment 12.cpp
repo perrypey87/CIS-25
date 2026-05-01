@@ -13,8 +13,8 @@ int main() {
 
     // 2. Assign values using the regular variable
     patient1.id = 101;
-    patient1.name = "John";
-    patient1.age = 40;
+    patient1.name = "Perry";
+    patient1.age = 38;
 
     // 3. Create a pointer that stores the address of the patient
     Patient* p = &patient1;
